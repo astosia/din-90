@@ -1,0 +1,122 @@
+{
+    "author": "astosia",
+    "dependencies": {
+        "pebble-clay": "^1.0.4"
+    },
+    "keywords": [],
+    "name": "din-90",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "DIN 90 Step Weather",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "Back1Color",
+            "Back1ColorN",
+            "Back2Color",
+            "Back2ColorN",
+            "Text1Color",
+            "Text1ColorN",
+            "Text2Color",
+            "Text2ColorN",
+            "FrameColor",
+            "FrameColorN",
+            "WeatherCond",
+            "WeatherTemp",
+            "HourSunrise",
+            "HourSunset",
+            "NameLocation",
+            "UpSlider",
+            "NightTheme",
+            "APIKEY_User",
+            "WeatherUnit",
+            "WeatherProv",
+            "EmailPMKEY",
+            "PINPMKEY",
+            "HourColor",
+            "HourColorN",
+            "MinColor",
+            "MinColorN",
+            "WeatherWind",
+            "bluetoothvibe",
+            "WEATHER_SUNSET_KEY",
+            "Text3Color",
+            "Text3ColorN"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[z]",
+                    "file": "fonts/Dripicons",
+                    "name": "FONT_DRIPICONS_16",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Weathericons",
+                    "name": "FONT_WEATHERICONS_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/Sunset2",
+                    "name": "IMAGE_SUNSET_ICON2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:.]",
+                    "file": "fonts/DINPro-CondBold",
+                    "name": "FONT_DINCON_BOLD_82",
+                    "targetPlatforms": null,
+                    "trackingAdjust": -3,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:.]",
+                    "file": "fonts/DINPro-CondBold",
+                    "name": "FONT_DINCON_BOLD_86",
+                    "targetPlatforms": null,
+                    "trackingAdjust": -3,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:.]",
+                    "file": "fonts/DINPro-CondBold",
+                    "name": "FONT_DINCON_BOLD_90",
+                    "targetPlatforms": null,
+                    "trackingAdjust": -3,
+                    "type": "font"
+                },
+                {
+                    "file": "images/sunset",
+                    "name": "IMAGE_SUNSET_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bt-icon",
+                    "name": "IMAGE_BT_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "976d0836-9c93-4938-b425-8cc4ebd05bc8",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.3.0"
+}
